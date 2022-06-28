@@ -18,6 +18,7 @@ import com.huawei.agc.clouddb.quick.model.LoginHelper;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.huawei.agc.clouddb.quick.model.StorageLocationHelper;
+import com.huawei.agconnect.cloud.database.AGConnectCloudDB;
 
 import android.os.Bundle;
 
@@ -81,6 +82,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        AGConnectCloudDB.initialize(this);
+
         mViewPager = findViewById(R.id.container);
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
         mViewPager.setAdapter(sectionsPagerAdapter);

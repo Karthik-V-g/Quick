@@ -34,9 +34,9 @@ import java.util.Date;
 import java.util.Locale;
 
 public class EditActivity extends AppCompatActivity {
-    static final String ACTION_ADD = "com.huawei.agc.clouddb.quickstart.ADD";
+    static final String ACTION_ADD = "com.huawei.agc.clouddb.quick.ADD";
 
-    static final String ACTION_SEARCH = "com.huawei.agc.clouddb.quickstart.SEARCH";
+    static final String ACTION_SEARCH = "com.huawei.agc.clouddb.quick.SEARCH";
 
     private Button searchButton;
     private Button addButton;

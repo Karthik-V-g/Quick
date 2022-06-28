@@ -42,8 +42,11 @@ android {
 
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        //sourceCompatibility JavaVersion.VERSION_1_8
+        //targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility=1.8
+        targetCompatibility=1.8
+
     }
 }
 
@@ -51,7 +54,6 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.huawei.agconnect:agconnect-core:1.6.5.300'
-
     implementation 'com.huawei.agconnect:agconnect-auth:1.6.5.300'
     implementation 'com.huawei.agconnect:agconnect-cloud-database:1.5.2.301'
     implementation 'com.google.android.material:material:1.6.1'

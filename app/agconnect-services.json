@@ -1,9 +1,9 @@
 {
 	"agcgw":{
-		"backurl":"connect-dre.hispace.hicloud.com",
-		"url":"connect-dre.dbankcloud.cn",
-		"websocketbackurl":"connect-ws-dre.hispace.dbankcloud.com",
-		"websocketurl":"connect-ws-dre.hispace.dbankcloud.cn"
+		"backurl":"connect-dra.hispace.hicloud.com",
+		"url":"connect-dra.dbankcloud.cn",
+		"websocketbackurl":"connect-ws-dra.hispace.dbankcloud.com",
+		"websocketurl":"connect-ws-dra.hispace.dbankcloud.cn"
 	},
 	"agcgw_all":{
 		"CN":"connect-drcn.dbankcloud.cn",
@@ -45,7 +45,7 @@
 	},
 	"service":{
 		"analytics":{
-			"collector_url":"datacollector-dre.dt.hicloud.com,datacollector-dre.dt.dbankcloud.cn",
+			"collector_url":"datacollector-dra.dt.hicloud.com,datacollector-dra.dt.dbankcloud.cn",
 			"collector_url_ru":"datacollector-drru.dt.dbankcloud.ru,datacollector-drru.dt.hicloud.com",
 			"collector_url_sg":"datacollector-dra.dt.hicloud.com,datacollector-dra.dt.dbankcloud.cn",
 			"collector_url_de":"datacollector-dre.dt.hicloud.com,datacollector-dre.dt.dbankcloud.cn",
@@ -54,16 +54,25 @@
 			"channel_id":""
 		},
 		"search":{
-			"url":"https://search-dre.cloud.huawei.com"
+			"url":"https://search-dra.cloud.huawei.com"
 		},
 		"cloudstorage":{
-			"storage_url":"https://ops-dre.agcstorage.link"
+			"storage_url_sg_back":"https://agc-storage-dra.cloud.huawei.asia",
+			"storage_url_ru_back":"https://agc-storage-drru.cloud.huawei.ru",
+			"storage_url_ru":"https://agc-storage-drru.cloud.huawei.ru",
+			"storage_url_de_back":"https://agc-storage-dre.cloud.huawei.eu",
+			"storage_url_de":"https://ops-dre.agcstorage.link",
+			"storage_url":"https://agc-storage-drcn.platform.dbankcloud.cn",
+			"storage_url_sg":"https://ops-dra.agcstorage.link",
+			"storage_url_cn_back":"https://agc-storage-drcn.cloud.huawei.com.cn",
+			"storage_url_cn":"https://agc-storage-drcn.platform.dbankcloud.cn",
+			"default_storage":""
 		},
 		"ml":{
-			"mlservice_url":"ml-api-dre.ai.dbankcloud.com,ml-api-dre.ai.dbankcloud.cn"
+			"mlservice_url":"ml-api-dra.ai.dbankcloud.com,ml-api-dra.ai.dbankcloud.cn"
 		}
 	},
-	"region":"DE",
+	"region":"SG",
 	"configuration_version":"3.0",
 	"appInfos":[
 		{

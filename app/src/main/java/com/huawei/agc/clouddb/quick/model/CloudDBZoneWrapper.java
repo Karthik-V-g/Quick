@@ -67,6 +67,8 @@ public class CloudDBZoneWrapper {
 
     private ReadWriteLock mReadWriteLock = new ReentrantReadWriteLock();
 
+
+
     /**
      * Monitor data change from database. Update book info list if data have changed
      */
